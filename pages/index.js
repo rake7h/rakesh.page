@@ -24,7 +24,7 @@ const Home = ({ posts }) => {
       <MeetMe />
       <Link href='https://github.com/rake7h' target="_blank">More about me</Link>
 
-      <div className={styles.articleList}>
+      {/* <div className={styles.articleList}>
         <p className={styles.desc}>Newly Published</p>
         {filteredPosts.map((post, index) => (
           <PostItem key={index} post={post} />
@@ -32,7 +32,7 @@ const Home = ({ posts }) => {
         <button onClick={loadMorePosts} className={styles.button}>
           Load more
         </button>
-      </div>
+      </div> */}
     </>
   );
 };
