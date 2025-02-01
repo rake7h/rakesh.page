@@ -22,7 +22,7 @@ const Home = ({ posts }) => {
     <>
       <Meta title='JS Blogs - Frontend enginnering blogs. Rakesh' />
       <MeetMe />
-      <Link href='https://github.com/rake7h' target="_blank">More about me</Link>
+      <Link href='https://linkedin.com/in/rake7h' target="_blank">More about me</Link>
 
       {/* <div className={styles.articleList}>
         <p className={styles.desc}>Newly Published</p>
